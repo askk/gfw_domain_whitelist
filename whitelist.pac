@@ -4,6 +4,7 @@ var proxy = new Array(
 
 // Add more proxies to load-balance!
 
+"SOCKS5 127.0.0.1:2345; SOCKS 127.0.0.1:2345;",
 "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080;",
 "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081;",
 "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1082;",
